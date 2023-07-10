@@ -44,8 +44,8 @@ class _MyAppState extends State<MyApp> {
               ? const SizedBox()
               : Column(
                   children: [
-                    Text(dataReceiver!.action),
-                    Text(dataReceiver!.data),
+                    Text(dataReceiver?.action ?? 'no action'),
+                    Text(dataReceiver?.data ?? 'no data'),
                   ],
                 ),
         ),

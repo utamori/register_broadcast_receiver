@@ -1,11 +1,10 @@
 name: register_broadcast_receiver
 description: Flutter register broadcast receiver plugin.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/ag1le0/register_broadcast_receiver
 
 environment:
-  sdk: '>=2.18.1 <3.0.0'
-  flutter: ">=2.5.0"
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:

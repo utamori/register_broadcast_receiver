@@ -12,8 +12,8 @@ class BroadcastReceiver {
 }
 
 class DataReceiver {
-  final String action;
-  final String data;
+  final String? action;
+  final String? data;
 
   DataReceiver(
     this.action,
